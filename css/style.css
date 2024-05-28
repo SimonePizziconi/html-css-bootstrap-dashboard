@@ -21,6 +21,10 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+.container-flex{
+    display: flex;
+}
+
 
 /* REGOLE HEADER */
 
@@ -31,11 +35,9 @@ body{
 
 /* REGOLE SIDEBAR */
 
-.nav-bar{
-}
-
 .sidebar{
-    width: 100%;
+    padding-top: 100px;
+    width: calc(100% / 12);
     height: calc(100vh - 80px);
     /* DEBUG */
     background-color: orange;
@@ -43,33 +45,35 @@ body{
 
 /* REGOLE MAIN */
 
+main{
+    width: calc(100% - (100% / 12));
+}
+
+/* REGOLE SECTION STUDENTI ONLINE */
+
+#boolean-plan-section{
+    color: #fff;
+}
+
 .boolean-plan{
     background-color: #1b72e8;
-    color: #fff;
+    width: 100%;
+}
+
+.boolean-plan h1{
+    display: inline;
+    font-size: 30px;
 }
 
 .boolean-plan a{
     color: #fff;
     text-decoration: none;
+    display: inline-block;
     background-color: #165bba;
     border-radius: 10px;
     padding: 2px 5px;
     font-size: 10px;
 }
 
-ol{
-    list-style-type: none;
-}
-
-ol li{
-    background-color: #165bba;
-    border-radius: 10px;
-    margin-right: 10px;
-    padding: 2px 5px;
-    font-size: 10px;
-}
-
-.breadcrumb-item.active{
-    color: #fff;
-}
+/* REGOLE OFFCANVAS BS */
 
