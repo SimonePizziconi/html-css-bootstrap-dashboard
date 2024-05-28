@@ -1,0 +1,42 @@
+/********** REGOLE GENERALI ***********/
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* REGOLE HEADER */
+
+.navbar{
+    height: 80px;
+}
+
+
+/* REGOLE SIDEBAR */
+
+.nav-bar{
+}
+
+.sidebar{
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* DEBUG */
+    background-color: orange;
+}
+
+/* REGOLE MAIN */
+
+
+.box{
+    width: 100%;
+    min-height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.mini-box{
+    width: 100%;
+    min-height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+}
