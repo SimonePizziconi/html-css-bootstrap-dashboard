@@ -1,3 +1,20 @@
+/* DEBUG */
+.box{
+    width: 100%;
+    min-height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.mini-box{
+    width: 100%;
+    min-height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+
+
 /********** REGOLE GENERALI ***********/
 
 body{
@@ -26,17 +43,33 @@ body{
 
 /* REGOLE MAIN */
 
-
-.box{
-    width: 100%;
-    min-height: 100px;
-    background-color: aquamarine;
-    border: 1px solid black;
+.boolean-plan{
+    background-color: #1b72e8;
+    color: #fff;
 }
 
-.mini-box{
-    width: 100%;
-    min-height: 100px;
-    background-color: orange;
-    border: 1px solid black;
+.boolean-plan a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #165bba;
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 10px;
 }
+
+ol{
+    list-style-type: none;
+}
+
+ol li{
+    background-color: #165bba;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
+.breadcrumb-item.active{
+    color: #fff;
+}
+
