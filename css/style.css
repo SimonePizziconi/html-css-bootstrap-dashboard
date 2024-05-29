@@ -55,13 +55,17 @@ header .btn:hover{
 
 .sidebar{
     padding: 10px 0;
-    width: calc(100% / 12);
+    width: 200px;
     height: calc(100vh - 80px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.tablet-sidebar{
+    display: none;
 }
 
 .nav-link {
@@ -117,6 +121,29 @@ main{
 
 .graphic-list li{
     border-bottom: 1px solid lightgray;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px){
+
+    /* NAVBAR */
+    
+
+    /* SIDEBAR */
+    .sidebar{
+        width: 60px;
+    }
+
+    .desktop-sidebar{
+        display: none;
+    }
+
+    .tablet-sidebar{
+        display: block;
+    }
+    
 }
 
 
