@@ -32,6 +32,24 @@ body{
     height: 80px;
 }
 
+header .btn-warning{
+    background-color: #f8f9fa;
+    border: none;
+}
+
+header .btn:hover{
+    color: #ffc106;
+    background-color: #f8f9fa;
+}
+
+.fa-bell{
+    color: #ffc106;
+}
+
+.icon-nav .fa-solid{
+    margin-left: 10px;
+}
+
 
 /* REGOLE SIDEBAR */
 

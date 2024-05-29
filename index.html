@@ -24,12 +24,32 @@
         <!-- TESTA DELLA PAGINA -->
         <header>
             <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                  <a class="navbar-brand">Navbar</a>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <div class="container-fluid d-flex">
+                  <a class="navbar-brand"><img src="img/logo.svg" alt="Logo"></a>
+                  <form class="flex-grow-1">
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                      <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
                   </form>
+                  <div class="icon-nav">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="btn-group dropstart">
+                      <button type="button" class="btn btn-warning p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                    
+                  </div>
                 </div>
             </nav>
         </header>
