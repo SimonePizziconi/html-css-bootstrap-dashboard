@@ -36,11 +36,23 @@ body{
 /* REGOLE SIDEBAR */
 
 .sidebar{
-    padding-top: 80px;
+    padding: 10px 0;
     width: calc(100% / 12);
     height: calc(100vh - 80px);
-    /* DEBUG */
-    background-color: orange;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover{
+    background-color: lightgray;
+    color: #000;
 }
 
 /* REGOLE MAIN */

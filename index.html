@@ -39,7 +39,22 @@
 
       <!-- SIDEBAR -->
       <div class="sidebar">
-
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-chart-simple"></i> Stats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-signal"></i> Signals</a>
+          </li>
+        </ul>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-gear"></i> Admin</a>
+          </li>
+        </ul>  
       </div>
 
 
@@ -111,14 +126,20 @@
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-success">Done</span>
                           </td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 76</th>
                           <td>16 Feb 2021</td>
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-success">Done</span></td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 77</th>
@@ -126,14 +147,20 @@
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-warning">Processing</span>
                           </td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 78</th>
                           <td>18 Feb 2021</td>
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-success">Done</span></td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 79</th>
@@ -141,14 +168,20 @@
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-danger">Falled</span>
                           </td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 80</th>
                           <td>20 Feb 2021</td>
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-success">Done</span></td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 81</th>
@@ -156,15 +189,20 @@
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-danger">Falled</span>
                           </td>
-                          <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
-                             <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row"><i class="fas fa-code"></i> Classe 82</th>
                           <td>22 Feb 2021</td>
                           <td>20%</td>
                           <td><span class="badge rounded-pill text-bg-success">Done</span></td>
-                          <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+                          <td>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                          </td>
                         </tr>
                       </tbody>
                       </table>
@@ -178,11 +216,11 @@
                     <div class="accordion p-3" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Come aggiungere un nuovo studente?
                           </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                           </div>
